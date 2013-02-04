@@ -118,7 +118,7 @@ namespace CxxTest
         s = copyString( s, "." );
         s = doubleToString( t, s, 1, DIGITS_ON_RIGHT );
         s = copyString( s, "E" );
-        s = numberToString( requiredDigitsOnLeft( t ) - 1, s );
+        numberToString( requiredDigitsOnLeft( t ) - 1, s );
     }
         
     void ValueTraits<const double>::normalNumber( double t )
