@@ -1,0 +1,13 @@
+{
+    "github": {
+        "repo": "cxxtest"
+    },
+    "pivotal_tracker": {
+        "project": {
+            "id": 923660
+        }
+    },
+    "hipchat": {
+        "room": "zveloCAT"
+    }
+}
